@@ -1,0 +1,1 @@
+const yearDays = y => (y%400===0 && y%100===0) ? y+" has "+366+" days" : (y%4===0 && y%100!==0) ? y+" has "+366+" days" : y+" has "+365+" days";
